@@ -57,7 +57,6 @@ Drpdown.propTypes = {
   transitionName: PropTypes.string,
   animation: PropTypes.string,
   onVisibleChange: PropTypes.func,
-  /*visible : PropTypes.bool,*/
   defaultVisible: PropTypes.bool,
   overlay: PropTypes.node,
   onOverlayClick: PropTypes.func,
