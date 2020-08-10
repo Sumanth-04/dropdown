@@ -42,7 +42,7 @@ class Dropdown extends Component {
           onBlur={this.onBlur}
         >
           <button>
-            {this.props.name}
+            {this.props.name ? this.props.name : this.props.className}
             {this.props.showCaret? <i className="fa fa-caret-down" aria-hidden="true"></i> : undefined}
           </button>
         </DropdownRc>
@@ -53,7 +53,7 @@ class Dropdown extends Component {
 
 Dropdown.propTypes = {
   className: PropTypes.string.isRequired,
-  name: PropTypes.string.isRequired,
+  name: PropTypes.string,
   prefixCls: PropTypes.string,
   showCaret: PropTypes.bool.isRequired,
   transitionName: PropTypes.string,
@@ -67,7 +67,6 @@ Dropdown.propTypes = {
 };
 Dropdown.defaultProps = {
   className: "Dropdown",
-  name: "Dropdown ",
   showCaret: true
 };
 
