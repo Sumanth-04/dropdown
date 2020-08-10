@@ -17,6 +17,7 @@ class App extends React.Component {
           <Menu>
             <MenuItem key="1">Light Yagami</MenuItem>
             <MenuItem key="2">L Lawliet</MenuItem>
+            <MenuItem key="3">Ryuk (Shinigami)</MenuItem>
           </Menu>
         </Drpdown>
       </div>
