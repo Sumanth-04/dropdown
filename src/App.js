@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.css";
-import Drpdown from "./components/Drpdown";
+import Dropdown from "./components/Dropdown";
 import Menu, { Item as MenuItem } from "rc-menu";
 
 class App extends React.Component {
@@ -8,7 +8,7 @@ class App extends React.Component {
     return (
       <div className="App">
         <br />
-        <Drpdown
+        <Dropdown
           className="Dropdown-className"
           name="Death Note "
           overlayClassName="dropdown-overlay"
@@ -19,7 +19,7 @@ class App extends React.Component {
             <MenuItem key="2">L Lawliet</MenuItem>
             <MenuItem key="3">Ryuk (Shinigami)</MenuItem>
           </Menu>
-        </Drpdown>
+        </Dropdown>
       </div>
     );
   }

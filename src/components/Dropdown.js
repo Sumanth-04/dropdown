@@ -1,9 +1,9 @@
 import React, { Component } from "react";
-import Dropdown from "rc-dropdown";
+import {default as DropdownRc} from "rc-dropdown";
 import PropTypes from "prop-types";
 import "rc-dropdown/assets/index.css";
-import "./Drpdown.css";
-class Drpdown extends Component {
+import "./Dropdown.css";
+class Dropdown extends Component {
   constructor(){
     super();
     this.onClick = this.onClick.bind(this);
@@ -24,7 +24,7 @@ class Drpdown extends Component {
   render() {
     return (
       <div>
-        <Dropdown
+        <DropdownRc
           className={this.props.className}
           name={this.props.name}
           prefixCls={this.props.prefixCls}
@@ -45,13 +45,13 @@ class Drpdown extends Component {
             {this.props.name}
             {this.props.showCaret? <i className="fa fa-caret-down" aria-hidden="true"></i> : undefined}
           </button>
-        </Dropdown>
+        </DropdownRc>
       </div>
     );
   }
 }
 
-Drpdown.propTypes = {
+Dropdown.propTypes = {
   className: PropTypes.string.isRequired,
   name: PropTypes.string.isRequired,
   prefixCls: PropTypes.string,
@@ -65,10 +65,10 @@ Drpdown.propTypes = {
   minOverlayWidthMatchTrigger: PropTypes.bool,
   getPopupContainer: PropTypes.func
 };
-Drpdown.defaultProps = {
+Dropdown.defaultProps = {
   className: "Dropdown",
   name: "Dropdown ",
   showCaret: true
 };
 
-export default Drpdown;
+export default Dropdown;
