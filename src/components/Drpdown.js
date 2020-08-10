@@ -26,6 +26,7 @@ class Drpdown extends Component {
       <div>
         <Dropdown
           className={this.props.className}
+          name={this.props.name}
           prefixCls={this.props.prefixCls}
           visible={this.state.toggle}
           defaultVisible={this.props.defaultVisible}
@@ -41,7 +42,7 @@ class Drpdown extends Component {
           onBlur={this.onBlur}
         >
           <button>
-            {this.props.className}
+            {this.props.name}
             {this.props.showCaret? <i className="fa fa-caret-down" aria-hidden="true"></i> : undefined}
           </button>
         </Dropdown>
@@ -52,6 +53,7 @@ class Drpdown extends Component {
 
 Drpdown.propTypes = {
   className: PropTypes.string.isRequired,
+  name: PropTypes.string.isRequired,
   prefixCls: PropTypes.string,
   showCaret: PropTypes.bool.isRequired,
   transitionName: PropTypes.string,
@@ -64,7 +66,8 @@ Drpdown.propTypes = {
   getPopupContainer: PropTypes.func
 };
 Drpdown.defaultProps = {
-  className: "Dropdown ",
+  className: "Dropdown",
+  name: "Dropdown ",
   showCaret: true
 };
 

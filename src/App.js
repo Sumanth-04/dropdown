@@ -9,14 +9,14 @@ class App extends React.Component {
       <div className="App">
         <br />
         <Drpdown
-          className="Dropdown-className "
-          defaultVisible={true}
+          className="Dropdown-className"
+          name="Death Note "
           overlayClassName="dropdown-overlay"
           showCaret={true}
         >
           <Menu>
-            <MenuItem key="1">1st item is Hi</MenuItem>
-            <MenuItem key="2">2nd item is Hello</MenuItem>
+            <MenuItem key="1">Light Yagami</MenuItem>
+            <MenuItem key="2">L Lawliet</MenuItem>
           </Menu>
         </Drpdown>
       </div>
