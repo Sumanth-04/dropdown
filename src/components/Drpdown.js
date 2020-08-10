@@ -1,24 +1,33 @@
 import React, { Component } from "react";
 import Dropdown from "rc-dropdown";
-import PropTypes from 'prop-types';
+import PropTypes from "prop-types";
 import "rc-dropdown/assets/index.css";
 import "./Drpdown.css";
 class Drpdown extends Component {
-  componentDidMount(props) {
-      if(this.props.visible){
-          //add visible props explicitly
-        Dropdown.defaultProps = {
-            visible : props.visible
-        }
-      }
+  constructor(){
+    super();
+    this.onClick = this.onClick.bind(this);
+    this.onBlur = this.onBlur.bind(this);
+    this.state = {
+      toggle : false,
+    }
   }
+  onBlur(){
+    setTimeout(()=>{ 
+      this.setState({toggle:false});;
+    }, 200)
+  }
+  onClick(){
+    this.setState({toggle:!this.state.toggle});
+  }
+  
   render() {
     return (
       <div>
         <Dropdown
           className={this.props.className}
           prefixCls={this.props.prefixCls}
-          /*visible={this.props.visible}*/
+          visible={this.state.toggle}
           defaultVisible={this.props.defaultVisible}
           overlayClassName={this.props.overlayClassName}
           overlay={this.props.children}
@@ -28,9 +37,13 @@ class Drpdown extends Component {
           onVisibleChange={this.props.onVisibleChange}
           minOverlayWidthMatchTrigger={this.props.minOverlayWidthMatchTrigger}
           getPopupContainer={this.props.getPopupContainer}
+          onClick={this.onClick}
+          onBlur={this.onBlur}
         >
-          <button>{this.props.className}</button>
-          
+          <button>
+            {this.props.className}
+            {this.props.showCaret? <i className="fa fa-caret-down" aria-hidden="true"></i> : undefined}
+          </button>
         </Dropdown>
       </div>
     );
@@ -38,23 +51,22 @@ class Drpdown extends Component {
 }
 
 Drpdown.propTypes = {
-    className : PropTypes.string.isRequired, 
-    prefixCls : PropTypes.string,
-    transitionName : PropTypes.string,
-    animation : PropTypes.string,
-    onVisibleChange : PropTypes.func,
-    /*visible : PropTypes.bool,*/
-    defaultVisible : PropTypes.bool,
-    overlay : PropTypes.node,
-    onOverlayClick : PropTypes.func ,
-    minOverlayWidthMatchTrigger : PropTypes.bool,
-    getPopupContainer : PropTypes.func
-}
+  className: PropTypes.string.isRequired,
+  prefixCls: PropTypes.string,
+  showCaret: PropTypes.bool.isRequired,
+  transitionName: PropTypes.string,
+  animation: PropTypes.string,
+  onVisibleChange: PropTypes.func,
+  /*visible : PropTypes.bool,*/
+  defaultVisible: PropTypes.bool,
+  overlay: PropTypes.node,
+  onOverlayClick: PropTypes.func,
+  minOverlayWidthMatchTrigger: PropTypes.bool,
+  getPopupContainer: PropTypes.func
+};
 Drpdown.defaultProps = {
-    className : 'Dropdown'
-}
-
-
-
+  className: "Dropdown ",
+  showCaret: true
+};
 
 export default Drpdown;

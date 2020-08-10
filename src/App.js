@@ -8,9 +8,10 @@ function App() {
     <div className="App">
       <br />
       <Drpdown
-        className="Whatever-the-className"
+        className="Dropdown-className "
         defaultVisible={true}
         overlayClassName="dropdown-overlay"
+        showCaret={true}
         /*visible={true}*/
       >
         <Menu>
