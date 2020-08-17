@@ -10,7 +10,7 @@ class App extends React.Component {
         <br />
         <Dropdown
           className="Dropdown-className"
-          name="Death Note "
+          name="Model "
           overlayClassName="dropdown-overlay"
           showCaret={true}
         >

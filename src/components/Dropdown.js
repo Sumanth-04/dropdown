@@ -43,6 +43,7 @@ class Dropdown extends Component {
         >
           <button>
             {this.props.name ? this.props.name : this.props.className}
+            <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;  </span>
             {this.props.showCaret? <i className="fa fa-caret-down" aria-hidden="true"></i> : undefined}
           </button>
         </DropdownRc>
