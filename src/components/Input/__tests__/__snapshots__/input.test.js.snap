@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input should have a label 1`] = `
+<div>
+  <span
+    className="rd-label"
+  >
+    <span>
+      Enter Your Name
+    </span>
+  </span>
+  <input
+    className="rd-input  undefined"
+    label={
+      <span>
+        Enter Your Name
+      </span>
+    }
+    placeholder="First Name"
+    style={Object {}}
+  />
+</div>
+`;
+
+exports[`Input should have a label 2`] = `
+<div>
+  <input
+    className="rd-input  undefined"
+    style={Object {}}
+  />
+</div>
+`;
+
+exports[`Input should have a label 3`] = `
+<textarea
+  className="rc-textarea rd-textarea undefined"
+  onChange={[Function]}
+  onKeyDown={[Function]}
+  style={Object {}}
+  value=""
+/>
+`;
+
+exports[`TextArea should have a label 1`] = `
+<textarea
+  className="rc-textarea rd-textarea undefined"
+  onChange={[Function]}
+  onKeyDown={[Function]}
+  placeholder="First Name"
+  style={Object {}}
+  textAreaStyles={Object {}}
+  value=""
+/>
+`;

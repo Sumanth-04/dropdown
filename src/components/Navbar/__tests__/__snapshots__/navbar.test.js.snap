@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NavBar 1`] = `
+<div>
+  <ul
+    className="rc-menu \\"rd-menu \\" undefined rc-menu-root rc-menu-vertical"
+    onKeyDown={[Function]}
+    onMouseEnter={[Function]}
+    onTransitionEnd={[Function]}
+    role="menu"
+    style={Object {}}
+    tabIndex={0}
+  >
+    <div>
+      React
+    </div>
+    <li
+      className="rc-menu-item \\"rc-menu-item menuItem \\" undefined"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      role="menuitem"
+      style={Object {}}
+    >
+      NavBar Items
+    </li>
+    <li
+      className="rc-menu-item \\"rc-menu-item menuItem \\" undefined"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      role="menuitem"
+      style={Object {}}
+    >
+      <br />
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`Rendering NavBar 1`] = `
+<div>
+  <ul
+    className="rc-menu \\"rd-menu \\" undefined rc-menu-root rc-menu-vertical"
+    onKeyDown={[Function]}
+    onMouseEnter={[Function]}
+    onTransitionEnd={[Function]}
+    role="menu"
+    style={Object {}}
+    tabIndex={0}
+  >
+    <li
+      className="rc-menu-item \\"rc-menu-item menuItem \\" undefined"
+      navbarStyles={
+        Object {
+          "height": "80px",
+        }
+      }
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      role="menuitem"
+      style={Object {}}
+    >
+       Redapt Components Library
+    </li>
+    <li
+      className="rc-menu-item \\"rc-menu-item menuItem \\" undefined"
+      onClick={[Function]}
+      onMouseEnter={[Function]}
+      onMouseLeave={[Function]}
+      role="menuitem"
+      style={Object {}}
+    >
+      <br />
+    </li>
+  </ul>
+</div>
+`;

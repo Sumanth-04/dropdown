@@ -1,0 +1,22 @@
+@import '../variables';
+
+
+.rd-input::placeholder, .rd-textarea::placeholder {
+  opacity: 0.7;
+  font-size:$placeHolder-font-size;
+}
+.rd-input , .rd-textarea {
+  border: 1px solid $primaryBorder-color;
+  padding-left: 8px;
+  border-radius: 0px;
+  height: $inputFieldHeight;
+  &:hover{
+    background : #F0F8FF;
+  }
+}
+.rd-textarea {
+  height: $text-areaFieldHeight;
+}
+
+
+
