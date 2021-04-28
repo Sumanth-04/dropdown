@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Radio should have a child or label 1`] = `
+<span
+  className="containers"
+>
+  <input
+    className="Radio"
+    label="click"
+    name="radAnswer"
+    type="radio"
+  />
+  <span
+    class="checkmark"
+  />
+   
+  click
+</span>
+`;

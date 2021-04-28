@@ -1,0 +1,16 @@
+/*Accordion*/
+.rd-dropdown {
+  background-color: white;
+  border: 1px solid #1D3C56;
+  color: #1D3C56;
+  padding: 4px 18px;
+  text-align: center;
+  display: inline-block;
+  font-size: 14px;
+  margin-left: 12px;
+  font-family: chivoLight;
+}
+
+button:hover {
+  background-color: #ebfaff;
+}

@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dropdown should have a single child and options in that child (Use div tag) 1`] = `
+<div>
+  <button
+    className="rd-dropdown --select--"
+    onBlur={[Function]}
+    onClick={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+  >
+    Click me
+    <span>
+               
+    </span>
+    <i
+      aria-hidden="true"
+      className="fa fa-caret-down"
+    />
+  </button>
+</div>
+`;
+
+exports[`Dropdown should have a single child and options in that child (Use div tag) 2`] = `
+<div>
+  <button
+    className="rd-dropdown --select--"
+    onBlur={[Function]}
+    onClick={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+  >
+    --select--
+    <span>
+               
+    </span>
+    <i
+      aria-hidden="true"
+      className="fa fa-caret-down"
+    />
+  </button>
+</div>
+`;
+
+exports[`Dropdown should have a single child and options in that child (Use div tag) 3`] = `
+<div>
+  <button
+    className="rd-dropdown --select--"
+    onBlur={[Function]}
+    onClick={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+  >
+    --select--
+    <span>
+               
+    </span>
+    <i
+      aria-hidden="true"
+      className="fa fa-caret-down"
+    />
+  </button>
+</div>
+`;
+
+exports[`Dropdown should have a single child and options in that child (Use div tag) 4`] = `
+<div>
+  <button
+    className="rd-dropdown --select--"
+    onBlur={[Function]}
+    onClick={[Function]}
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+  >
+    --select--
+    <span>
+               
+    </span>
+    <i
+      aria-hidden="true"
+      className="fa fa-caret-down"
+    />
+  </button>
+</div>
+`;

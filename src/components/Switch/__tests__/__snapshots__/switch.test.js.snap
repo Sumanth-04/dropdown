@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Switch uses default scss and can have checkedChildren uncheckedChildren as props 1`] = `
+<div>
+  <button
+    aria-checked={false}
+    className="rc-switch rd-switch undefined"
+    disabled={false}
+    onClick={[Function]}
+    onKeyDown={[Function]}
+    role="switch"
+    type="button"
+  >
+    <span
+      className="rc-switch-inner"
+    >
+      关
+    </span>
+  </button>
+</div>
+`;

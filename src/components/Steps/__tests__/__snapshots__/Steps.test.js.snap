@@ -1,0 +1,180 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Steps should have a single child or multiple children and description or children in each child is compulsary(Use div tag) 1`] = `
+<div>
+  <div
+    className="rc-steps rc-steps-horizontal rc-steps-label-horizontal"
+    style={Object {}}
+  >
+    <div
+      className="rc-steps-item rc-steps-item-process rc-steps-item-active"
+      style={Object {}}
+    >
+      <div
+        className="rc-steps-item-container"
+        onClick={[Function]}
+        role="button"
+        tabIndex={0}
+      >
+        <div
+          className="rc-steps-item-tail"
+        />
+        <div
+          className="rc-steps-item-icon"
+        >
+          <span
+            className="rc-steps-icon"
+          >
+            1
+          </span>
+        </div>
+        <div
+          className="rc-steps-item-content"
+        >
+          <div
+            className="rc-steps-item-title"
+          >
+            Personal Details
+            <div
+              className="rc-steps-item-subtitle"
+              title="Subtitle"
+            >
+              Subtitle
+            </div>
+          </div>
+          <div
+            className="rc-steps-item-description"
+          >
+            <div>
+              <input
+                placeholder="First Name"
+                type="text"
+              />
+              Enter First Name
+              <input
+                placeholder="Last Name"
+                type="text"
+              />
+              Enter Last Name
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="rc-steps-item rc-steps-item-wait"
+      style={Object {}}
+    >
+      <div
+        className="rc-steps-item-container"
+        onClick={[Function]}
+        role="button"
+        tabIndex={0}
+      >
+        <div
+          className="rc-steps-item-tail"
+        />
+        <div
+          className="rc-steps-item-icon"
+        >
+          <span
+            className="rc-steps-icon"
+          >
+            2
+          </span>
+        </div>
+        <div
+          className="rc-steps-item-content"
+        >
+          <div
+            className="rc-steps-item-title"
+          >
+            Professional Details
+            <div
+              className="rc-steps-item-subtitle"
+              title="Subtitle"
+            >
+              Subtitle
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      className="rc-steps-item rc-steps-item-wait"
+      style={Object {}}
+    >
+      <div
+        className="rc-steps-item-container"
+        onClick={[Function]}
+        role="button"
+        tabIndex={0}
+      >
+        <div
+          className="rc-steps-item-tail"
+        />
+        <div
+          className="rc-steps-item-icon"
+        >
+          <span
+            className="rc-steps-icon"
+          >
+            3
+          </span>
+        </div>
+        <div
+          className="rc-steps-item-content"
+        >
+          <div
+            className="rc-steps-item-title"
+          >
+            Social
+            <div
+              className="rc-steps-item-subtitle"
+              title="Subtitle"
+            >
+              Subtitle
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    style={
+      Object {
+        "paddingLeft": "20%",
+        "paddingTop": "25px",
+      }
+    }
+  >
+    <button
+      className="rd-button rd-secondary small rd- undefined "
+      label=""
+      onClick={[Function]}
+      size="small"
+      style={Object {}}
+      type="secondary"
+    >
+      Next
+       
+      
+       
+    </button>
+     
+    <button
+      className="rd-button rd-secondary small rd- undefined "
+      label=""
+      onClick={[Function]}
+      size="small"
+      style={Object {}}
+      type="secondary"
+    >
+      Back
+       
+      
+       
+    </button>
+  </div>
+</div>
+`;

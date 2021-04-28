@@ -1,0 +1,16 @@
+@import '../variables';
+
+
+.rd-dropdown{ 
+    background-color: white;
+    border: 1px solid $primary-color ;
+    color: $primary-color ;
+    padding: 4px 18px;
+    text-align: center;
+    display: inline-block;
+    font-size: 14px;
+    margin-left: 12px;
+    &:hover{
+        background-color: #ebfaff;
+    }
+}
