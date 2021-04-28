@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card Renders with image, content, actions 1`] = `
+<div>
+  <img
+    alt="example"
+    src="https://os.alipayobjects.com/rmsportal/QBnOOoLaAfKPirc.png"
+  />
+  <div
+    style={
+      Object {
+        "color": "red",
+      }
+    }
+  >
+    Hello
+  </div>
+  <button
+    onClick={[Function]}
+    style={
+      Object {
+        "background": "red",
+      }
+    }
+  >
+    Action!
+  </button>
+</div>
+`;
