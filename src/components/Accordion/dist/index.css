@@ -1,0 +1,64 @@
+/* Style the buttons that are used to open and close the accordion panel */
+/* .accordion {
+	background-color: #eee;
+	color: #444;
+	cursor: pointer;
+	width: 100%;
+	padding: 22px 40px;
+	text-align: left;
+	border: none;
+	outline: none;
+	transition: 0.4s;
+  } */
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+/* .active, .accordion:hover {
+background-color: #ccc;
+ } */
+/* Style the accordion panel. Note: hidden by default */
+/* .panel {
+padding: 0 18px;
+background-color: white;
+overflow: hidden;
+ }
+.rd-accordionHeader {
+	display: flex;
+	justify-content: space-between;
+} */
+/*Accordion*/
+/*Accordion*/
+.accordion {
+  background: #F0F5F9;
+  color: #444;
+  cursor: pointer;
+  width: 100%;
+  padding: 22px 40px;
+  margin-top: 1em;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+}
+
+/* Add a background color to the button if it is clicked on (add the .active class with JS), and when you move the mouse over it (hover) */
+.active,
+.accordion:hover {
+  background: #eaf3fa;
+}
+
+/* Style the accordion panel. Note: hidden by default */
+.panel {
+  padding: 10px 18px;
+  background-color: white;
+  overflow: hidden;
+}
+
+.rd-accordionHeader {
+  display: flex;
+  justify-content: space-between;
+  color: black;
+  font-size: 20px;
+}
+
+.rd-accordionBody {
+  font-family: Chivo;
+}

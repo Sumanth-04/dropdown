@@ -1,0 +1,136 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Accordion should have a single child and options in that child (Use div tag) 1`] = `
+<div
+  className=""
+>
+  <div>
+    <div
+      className="accordion"
+      onClick={[Function]}
+      style={
+        Object {
+          "background": undefined,
+        }
+      }
+    >
+      <div
+        className="rd-accordionHeader"
+      >
+        <div>
+          HEllo
+        </div>
+      </div>
+      <div />
+      <div
+        className="rd-accordionBody"
+      >
+        HEllo Body
+      </div>
+    </div>
+  </div>
+  <div>
+    <div
+      className="accordion"
+      onClick={[Function]}
+      style={
+        Object {
+          "background": undefined,
+        }
+      }
+    >
+      <div
+        className="rd-accordionHeader"
+      >
+        <div>
+          Hi
+        </div>
+      </div>
+      <div />
+      <div
+        className="rd-accordionBody"
+      />
+    </div>
+  </div>
+  <div>
+    <div
+      className="accordion"
+      onClick={[Function]}
+      style={
+        Object {
+          "background": undefined,
+        }
+      }
+    >
+      <div
+        className="rd-accordionHeader"
+      >
+        <div>
+          Good
+        </div>
+      </div>
+      <div />
+      <div
+        className="rd-accordionBody"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Accordion should have a single child and options in that child (Use div tag) 2`] = `
+<div
+  className=""
+>
+  <div>
+    <div
+      className="accordion"
+      onClick={[Function]}
+      style={
+        Object {
+          "background": undefined,
+        }
+      }
+    >
+      <div
+        className="rd-accordionHeader"
+      >
+        <div>
+          HEllo
+        </div>
+      </div>
+      <div />
+      <div
+        className="rd-accordionBody"
+      >
+        Lorem Body
+      </div>
+    </div>
+  </div>
+  <div>
+    <div
+      className="accordion"
+      onClick={[Function]}
+      style={
+        Object {
+          "background": undefined,
+        }
+      }
+    >
+      <div
+        className="rd-accordionHeader"
+      >
+        <div>
+          HEllo
+        </div>
+      </div>
+      <div />
+      <div
+        className="rd-accordionBody"
+      >
+        Lorem Epseuim
+      </div>
+    </div>
+  </div>
+</div>
+`;
