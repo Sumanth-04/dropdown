@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Checkbox should have a label 1`] = `
+<span>
+  <span
+    className="rc-checkbox rd-checkbox"
+    style={
+      Object {
+        "borderRadius": "3px",
+      }
+    }
+  >
+    <input
+      checked={false}
+      className="rc-checkbox-input"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      type="checkbox"
+    />
+    <span
+      className="rc-checkbox-inner"
+    />
+  </span>
+   
+  Check me!!
+</span>
+`;
+
+exports[`Rendering Checkbox 1`] = `
+<span>
+  <span
+    className="rc-checkbox rd-checkbox"
+    style={
+      Object {
+        "borderRadius": "3px",
+      }
+    }
+  >
+    <input
+      checked={false}
+      className="rc-checkbox-input"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      type="checkbox"
+    />
+    <span
+      className="rc-checkbox-inner"
+    />
+  </span>
+   
+</span>
+`;
+
+exports[`Rendering Checkbox 2`] = `
+<span>
+  <span
+    className="rc-checkbox rd-checkbox"
+    style={
+      Object {
+        "height": "20px",
+        "width": "20px",
+      }
+    }
+  >
+    <input
+      checked={false}
+      className="rc-checkbox-input"
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      type="checkbox"
+    />
+    <span
+      className="rc-checkbox-inner"
+    />
+  </span>
+   
+</span>
+`;

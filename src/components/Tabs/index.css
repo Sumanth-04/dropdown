@@ -1,0 +1,68 @@
+.tab_ul {
+    list-style: none;
+}
+
+.tab_ul > li{
+    display: inline;
+    list-style-type: none;
+    padding-right: 20px;
+}
+
+.tab-list > li::after{
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    left: 50%;
+    position: absolute;
+    background: #fff;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+}
+
+.tab-list > li :hover ::after { 
+    content: "";
+    width: 100%; 
+    left: 0; 
+}
+
+.rd_tabs { 
+    padding: 0; 
+    list-style: none; 
+}
+
+.rd-tab { 
+    display: table-cell; 
+    position: relative;
+}
+
+.rd-tab-item {
+    color: #333;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 0.15em;
+    
+    display: inline-block;
+    padding: 15px 20px;
+    position: relative;
+  }
+
+.rd-tab-item:after{
+    background: none repeat scroll 0 0 transparent;
+    bottom: 0;
+    content: "";
+    display: block;
+    height: 2px;
+    position: absolute;
+    background: #333;
+    transition: width 0.3s ease 0s, left 0.3s ease 0s;
+    width: 0;
+  }
+
+.rd-tab-item:hover:after,
+.rd-tab-item:focus:after,
+.rd-tab-item:active:after { 
+    width: 100%;
+    left: 0; 
+}

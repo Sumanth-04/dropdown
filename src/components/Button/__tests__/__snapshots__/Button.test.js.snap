@@ -1,0 +1,113 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button should have a type and label 1`] = `
+<button
+  className="rd-button rd-primary medium rd- undefined "
+  label="Primary Button"
+  size="medium"
+  style={Object {}}
+  type="primary"
+>
+   
+  Primary Button
+   
+</button>
+`;
+
+exports[`Button should have a type and label 2`] = `
+<button
+  className="rd-button rd-secondary medium rd- undefined "
+  label="secondary Button"
+  size="medium"
+  style={Object {}}
+  type="secondary"
+>
+   
+  secondary Button
+   
+</button>
+`;
+
+exports[`Button should have a type and label 3`] = `
+<button
+  className="rd-button rd-link medium rd- undefined "
+  label="Link Button"
+  size="medium"
+  style={Object {}}
+  type="link"
+>
+   
+  Link Button
+   
+</button>
+`;
+
+exports[`Button should have a type and label 4`] = `
+<button
+  className="rd-button rd-success medium rd- undefined "
+  label="Completed"
+  size="medium"
+  style={Object {}}
+  type="success"
+>
+   
+  Completed
+   
+</button>
+`;
+
+exports[`Button should have a type and label 5`] = `
+<button
+  className="rd-button rd-danger medium rd- undefined "
+  label="Completed"
+  size="medium"
+  style={Object {}}
+  type="danger"
+>
+   
+  Completed
+   
+</button>
+`;
+
+exports[`Button should have a type and label 6`] = `
+<button
+  className="rd-button rd-warning medium rd- undefined "
+  label="Completed"
+  size="medium"
+  style={Object {}}
+  type="warning"
+>
+   
+  Completed
+   
+</button>
+`;
+
+exports[`Button should have a type and label 7`] = `
+<button
+  className="rd-button rd-light medium rd- undefined "
+  label="Completed"
+  size="medium"
+  style={Object {}}
+  type="light"
+>
+   
+  Completed
+   
+</button>
+`;
+
+exports[`Button should have a type and label 8`] = `
+<button
+  className="rd-button rd-dark medium rd- undefined "
+  label="Completed"
+  size="medium"
+  style={Object {}}
+  type="dark"
+>
+   
+  Completed
+   
+</button>
+`;

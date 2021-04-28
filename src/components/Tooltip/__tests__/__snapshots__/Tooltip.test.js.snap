@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tooltip should have a single child and overlay 1`] = `
+<div>
+  <div
+    className="rd-tooltip  undefined"
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+  >
+    Hi
+  </div>
+</div>
+`;
+
+exports[`Tooltip should have a single child and overlay 2`] = `
+<div>
+  <div
+    className="rd-tooltip  undefined"
+    onMouseEnter={[Function]}
+    onMouseLeave={[Function]}
+  >
+    <div>
+      Hi
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,21 @@
+@import "../variables";
+
+.rd-upload {
+  border: 1px solid $primary-color;
+  background: $primary-color;
+  color: white;
+  height: 28px;
+  font-size: 12px;
+  text-align: center;
+  /*borderRadius: "2px";*/
+  cursor: pointer;
+}
+
+.rd-btn {
+  background: white;
+  border: 1px solid $primary-color;
+  color: $primary-color;
+  font-family: 'MetropolisRegular';
+  text-align: center;
+  cursor: pointer;
+}

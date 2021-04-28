@@ -1,0 +1,129 @@
+@font-face {
+  font-family: "FontAwesome";
+  src: url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/fonts/fontawesome-webfont.eot");
+  src: url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/fonts/fontawesome-webfont.eot?#iefix") format("embedded-opentype"), url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/fonts/fontawesome-webfont.woff") format("woff"), url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/fonts/fontawesome-webfont.ttf") format("truetype"), url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/fonts/fontawesome-webfont.svg?#fontawesomeregular") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: Chivo;
+  src: url(../Chivo/Chivo-Regular.ttf);
+}
+@font-face {
+  font-family: ChivoLight;
+  src: url(../Chivo/Chivo-Light.ttf);
+}
+/*Accordion*/
+.rd-button,
+.primary {
+  background-color: #1D3C56;
+  color: white;
+  border: none;
+  font-size: 14px;
+  font-family: ChivoLight;
+  text-align: center;
+  cursor: pointer;
+  /*font-family: ChivoLight;*/
+}
+.rd-button:focus,
+.primary:focus {
+  background: #0b2a44;
+}
+
+.secondary {
+  transition: 0.3s;
+  height: 26px;
+  color: #1D3C56;
+  border: 1px solid #1D3C56;
+  font-size: 14px;
+  background-color: white;
+  border-radius: 2px;
+  font-family: Chivo;
+  text-align: center;
+  cursor: pointer;
+  /*font-family: Chivo;
+  text-align: center;
+  cursor: pointer;*/
+  padding: 3px 11px;
+}
+.secondary:hover {
+  border: solid 1px skyblue;
+  color: skyblue;
+}
+.secondary:focus {
+  background-color: white;
+  color: skyblue;
+  border: skyblue 1px solid;
+}
+
+.search, .search-secondary, .search-icon-only, .search-icon-only-secondary {
+  margin-left: 4px;
+  font-family: Chivo;
+  text-align: center;
+  cursor: pointer;
+  /*text-align: center;
+  font-family: Chivo;
+  cursor: pointer;*/
+  transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  font-size: 14px;
+  color: white;
+  background: #1890ff;
+  border-color: #1890ff;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.045);
+  box-sizing: border-box;
+  height: 28px;
+  padding: 3px 11px;
+  font-size: 12px;
+  border-radius: 2px;
+  line-height: 1.66667;
+}
+.search:focus, .search:hover, .search-secondary:focus, .search-secondary:hover, .search-icon-only:focus, .search-icon-only:hover, .search-icon-only-secondary:focus, .search-icon-only-secondary:hover {
+  color: white;
+  background: #1890ff;
+  border-color: #1890ff;
+}
+
+.search-secondary, .search-icon-only-secondary {
+  background-color: white;
+  color: #1D3C56;
+  border: solid 1px #1D3C56;
+  text-shadow: none;
+}
+.search-secondary:focus, .search-secondary:hover, .search-icon-only-secondary:focus, .search-icon-only-secondary:hover {
+  background-color: white;
+  color: #40a9ff;
+  border: solid 1px #40a9ff;
+}
+
+.search-icon-only, .search-icon-only-secondary {
+  border-radius: 100%;
+  outline: none;
+}
+.search-icon-only:focus, .search-icon-only:hover, .search-icon-only-secondary:focus, .search-icon-only-secondary:hover {
+  border: none;
+}
+
+/*
+{
+  border-radius: 100%;
+  outline:none;
+}*/
+.link-btn {
+  color: #1890ff;
+  background: white;
+  border: none;
+  line-height: 1.66667;
+  font-family: Chivo;
+  text-align: center;
+  cursor: pointer;
+  /*font-family: Chivo;
+  cursor: pointer;
+  text-align: center;*/
+  outline: none;
+}
+.link-btn:focus, .link-btn:hover {
+  background: white;
+  color: #519be0;
+  border: none;
+}

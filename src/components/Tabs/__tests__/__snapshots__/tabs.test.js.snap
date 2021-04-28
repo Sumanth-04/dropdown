@@ -1,0 +1,89 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tab Renders with Content 1`] = `
+<div>
+  <ul
+    className="rd_tabs"
+  >
+    <li
+      className="rd-tab"
+    >
+      <a
+        className="rd-tab-item tab-list-item tab-list-active"
+        onClick={[Function]}
+      >
+        1
+      </a>
+    </li>
+    <li
+      className="rd-tab"
+    >
+      <a
+        className="rd-tab-item tab-list-item"
+        onClick={[Function]}
+      >
+        2
+      </a>
+    </li>
+    <li
+      className="rd-tab"
+    >
+      <a
+        className="rd-tab-item tab-list-item"
+        onClick={[Function]}
+      >
+        3
+      </a>
+    </li>
+  </ul>
+  <div
+    className="tab-content"
+  >
+    Hi
+  </div>
+</div>
+`;
+
+exports[`Tab Renders with Content 2`] = `
+<div>
+  <ul
+    className="rd_tabs"
+  >
+    <li
+      className="rd-tab"
+    >
+      <a
+        className="rd-tab-item tab-list-item tab-list-active"
+        onClick={[Function]}
+      >
+        1
+      </a>
+    </li>
+    <li
+      className="rd-tab"
+    >
+      <a
+        className="rd-tab-item tab-list-item"
+        onClick={[Function]}
+      >
+        2
+      </a>
+    </li>
+    <li
+      className="rd-tab"
+    >
+      <a
+        className="rd-tab-item tab-list-item"
+        onClick={[Function]}
+      >
+        3
+      </a>
+    </li>
+  </ul>
+  <div
+    className="tab-content"
+  >
+    Hi
+  </div>
+</div>
+`;

@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Collapse should have children and Content in each child 1`] = `
+<div>
+  <div>
+    <div
+      onClick={[Function]}
+    >
+      <span>
+        Collapse Here &gt;
+      </span>
+    </div>
+    <div
+      style={
+        Object {
+          "display": "none",
+        }
+      }
+    >
+      this is panel content
+    </div>
+  </div>
+  <div>
+    <div
+      onClick={[Function]}
+    >
+      <span>
+        Collapse Here &gt;
+      </span>
+    </div>
+    <div
+      style={
+        Object {
+          "display": "none",
+        }
+      }
+    >
+      this is panel content2
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,59 @@
+/*Accordion*/
+.rd_tabs {
+  width: 100%;
+  margin-bottom: 8px;
+}
+
+.rd-tab .tab-list-active {
+  font-family: ChivoRegular !important;
+}
+.rd-tab .rd-tab-item {
+  font-size: 16px;
+  font-family: ChivoLight;
+  padding: 0px;
+  margin-right: 24px;
+  letter-spacing: 1px;
+}
+.rd-tab .rd-tab-item:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.rd_pills {
+  width: 100%;
+}
+
+.rd_pill {
+  width: 100%;
+  margin-bottom: 8px;
+  border-bottom: none !important;
+}
+
+.rd-pill {
+  display: inline;
+  position: relative;
+  margin-right: 1.2rem;
+}
+.rd-pill .pill-list-active {
+  font-family: ChivoLight !important;
+  background: #1D3C56;
+  color: white;
+}
+.rd-pill .pill-list-active:hover {
+  text-decoration: none;
+  color: white !important;
+  cursor: pointer;
+}
+.rd-pill .rd-pill-item {
+  font-size: 14px;
+  font-family: ChivoLight;
+  text-transform: uppercase;
+  padding: 5px 10px;
+  letter-spacing: 1px;
+  border: 1px solid #1D3C56;
+}
+.rd-pill .rd-pill-item:hover {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}

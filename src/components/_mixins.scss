@@ -1,0 +1,16 @@
+@mixin btn-font {
+  font-family: /*Chivo*/'MetropolisRegular';
+  text-align: center;
+  cursor: pointer;
+}
+
+
+
+@mixin RadioStyles{
+  border: 1px solid $primary-color;
+  width: 10px;
+  height: 10px;
+  border-radius: 15px;
+  content: '';
+  display: inline-block;
+}

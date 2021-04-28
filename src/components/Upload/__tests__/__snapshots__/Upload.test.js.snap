@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Upload should have string child 1`] = `
+<div>
+  <button
+    className="rc-upload rd-upload upload-btn"
+    onClick={[Function]}
+    onDragOver={[Function]}
+    onDrop={[Function]}
+    onKeyDown={[Function]}
+    role="button"
+    tabIndex="0"
+  >
+    <input
+      directory={null}
+      multiple={true}
+      onChange={[Function]}
+      onClick={[Function]}
+      style={
+        Object {
+          "display": "none",
+        }
+      }
+      type="file"
+      webkitdirectory={null}
+    />
+    Upload from here
+    <br />
+  </button>
+   
+  <span
+    style={
+      Object {
+        "fontSize": "14px",
+      }
+    }
+  />
+  <div
+    style={
+      Object {
+        "width": "40%",
+      }
+    }
+  />
+</div>
+`;

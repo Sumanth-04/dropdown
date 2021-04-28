@@ -1,0 +1,8 @@
+.rd-upload {
+  border: 1px solid black;
+  background: white;
+  color: black;
+  height: 28px;
+  /*borderRadius: "2px";*/
+  cursor: pointer;
+}

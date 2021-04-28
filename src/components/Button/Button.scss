@@ -1,0 +1,224 @@
+@import '../typography';
+@import '../mixins';
+@import '../variables';
+
+
+$Button-fontSize: 14px;
+$BorderRadius : 2px;
+$lineHeight : 1.66667;
+$secondaryButtonBackground : white;
+$search-btn-background :/*#1890ff*/#1D3C56;
+$search-secondary-color : /*#40a9ff*/$secondary-color;
+$link-btn-color-hover : /*#519be0*/$secondary-color;
+$search-icon-font-size : 12px;
+$secondaryButtonColorOnHover: $secondary-color;
+$secondaryButtonHeight: 26px;
+
+
+.small{
+  //width: 58px;
+  height: 25px;
+  font-size: 12px;
+  padding: 5px;
+}
+.medium{
+  //width: 78px;
+  height: 34px;
+  font-size: 14px;
+  padding: 10px;
+
+}
+.large{
+  //width: 105px;
+  height: 40px;
+  font-size: 16px;
+  padding: 12px;
+
+}
+
+.rd-button,
+.rd-primary {
+  background-color: $primary-color;
+  color: white;
+  border: none;
+  //height: 26px;
+  //font-size: $Button-fontSize;
+  @include btn-font;
+  &:focus {
+    background: $primaryButton-colorOnHover;
+  }
+}
+
+.rd-secondary {
+  transition: 0.3s;
+  color: $primary-color;
+  border: 1px solid $primary-color;
+  background-color: $secondaryButtonBackground ;
+  @include btn-font;
+  padding: 3px 11px;
+  &:hover {
+    border: solid 1px $secondaryButtonColorOnHover;
+    color: $secondaryButtonColorOnHover;
+  }
+  &:focus {
+    background-color: $secondaryButtonBackground ;
+    color: $secondaryButtonColorOnHover;
+    border: $secondaryButtonColorOnHover 1px solid;
+  }
+}
+
+.rd-search , .rd-search-secondary , .rd-search-icon-only ,.rd-search-icon-only-secondary {
+  margin-left: 4px;
+  @include btn-font;
+  transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+  font-size: $Button-fontSize;
+  color: $secondaryButtonBackground;
+  background: $search-btn-background;
+  border-color: $search-btn-background;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.045);
+  box-sizing: border-box;
+  height: 28px;
+  padding: 3px 11px;
+  font-size: $search-icon-font-size;
+  line-height: $lineHeight;
+  &:focus,&:hover{
+    color: $secondaryButtonBackground;
+    background: $primary-color;
+    border-color: $search-btn-background;
+  }
+}
+
+.rd-search {
+  border-radius: 0px;
+}
+
+.rd-search-secondary ,.rd-search-icon-only-secondary {
+  background-color:$secondaryButtonBackground;
+  color: $primary-color;
+  border:solid 1px $primary-color;
+  text-shadow: none;
+  &:focus ,&:hover{
+    background-color: $secondaryButtonBackground;
+    color:$search-secondary-color ;
+    border: solid 1px $search-secondary-color;
+  }
+}
+.rd-search-icon-only,.rd-search-icon-only-secondary{
+  border-radius: 100%;
+  outline:none;
+  &:focus ,&:hover{  
+    border: none;
+  }
+}
+
+.rd-search-icon-only-secondary{
+  &:focus ,&:hover{  
+    border: solid 1px $search-secondary-color;
+  }
+}
+
+.rd-link{
+  color: $search-btn-background;
+  background: $secondaryButtonBackground;
+  border: none;
+  line-height: $lineHeight;
+  @include btn-font;
+  text-align: left;
+  outline:none;
+  &:focus , &:hover {
+    background: $secondaryButtonBackground;
+    color: $secondary-color;
+    border: none;
+    text-decoration: underline;
+  }
+  
+}
+
+.rd-success{
+  @include btn-font;
+  background: #40CC88;
+  color: white;
+  &:hover , &:focus{
+    background: #40CC88;
+  }
+}
+.rd-danger{
+  @include btn-font;
+  background: #CF4A46;
+  color: white;
+  &:hover , &:focus{
+    background: #CF4A46;
+  }
+}
+.rd-warning{
+  @include btn-font;
+  background: #EEB909;
+  color: white;
+  &:hover , &:focus{
+    background: #EEB909;
+  }
+}
+.rd-light{
+  @include btn-font;
+  background: #EAEAEA;
+  color: #696969;
+  &:hover , &:focus{
+    background: #EAEAEA;
+  }
+}
+.rd-dark{
+  @include btn-font;
+  background: #696969;
+  color: white;
+  &:hover , &:focus{
+    background: #696969;
+  }
+}
+
+
+.rd-success-secondary{
+  @include btn-font;
+  background: white;
+  color: #40CC88;
+  border: 1px solid #40CC88;
+  &:hover , &:focus{
+    background: white;
+  }
+}
+.rd-danger-secondary{
+  @include btn-font;
+  background: white;
+  color: #CF4A46;
+  border: 1px solid #CF4A46;
+  &:hover , &:focus{
+    background: white;
+  }
+}
+.rd-warning-secondary{
+  @include btn-font;
+  background: white;
+  color: #EEB909;
+  border: 1px solid #EEB909;
+  &:hover , &:focus{
+    background: white;
+  }
+}
+.rd-light-secondary{
+  @include btn-font;
+  background: white;
+  border: 1px solid #EAEAEA;
+  color: #696969;
+  &:hover , &:focus{
+    background: white;
+  }
+}
+.rd-dark-secondary{
+  @include btn-font;
+  background: white;
+  border: 1px solid #696969;
+  color: #696969;
+  &:hover , &:focus{
+    background: white;
+  }
+}
